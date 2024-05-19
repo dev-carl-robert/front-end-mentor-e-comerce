@@ -57,10 +57,10 @@ main {
     max-height: 5rem;
 }
 .details__header {
-    height: .2rem;
+    height: 2px;
     width: 80%;
     border-radius: 10rem;
-    background-color: hsl(219, 9%, 45%);
+    background-color: hsl(219, 9%, 20%);
     opacity: .2;
     position: absolute;
     bottom: 0;
@@ -79,9 +79,6 @@ main {
     justify-content: center;
     width: 50%;
     gap: 2rem;
-}
-.grid2 {
-    width: 50%;
 }
 .images__products {
     max-width: 30rem;
@@ -104,27 +101,111 @@ main {
 .imgThumb {
     max-width: 6rem;
     max-height: 6rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
+}
+.grid2 {
+    width: 50%;
 }
 .product__infos {
+    display: flex;
+    width: 40rem;
+    flex-direction: column;
 }
 .subtitle {
+    text-transform: uppercase;
+    width: 40rem;
+    color: hsl(26, 100%, 55%);
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 .title {
+    color: hsl(0, 0%, 0%);
+    font-size: 3rem;
+    width: 40rem;
+    line-height: 3.5rem;
+    word-spacing: 1rem;
+    word-break: keep-all;
+    margin-bottom: 4rem;
 }
 .describle {
+    width: 40rem;
+    word-break: normal;
+    color: hsl(219, 9%, 45%);
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
 }
 .price__content {
+    display: flex;
+    gap: 1.8rem;
+    font-size: 1.6rem;
 }
-.price {
+.price h3{
+    margin-top: .8rem;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
 }
 .sale {
+    height: 3rem;
+    border-radius: .6rem;
+    background-color: hsl(26, 100%, 80%);
+    padding: 2px 8px;
+    color: hsl(26, 100%, 50%);
+}
+.botoes {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -20rem;
+    align-items: center;
+    height: 3rem;
 }
 .add__product {
+    height: 3rem;
+    background-color:hsl(223, 64%, 98%);
+    min-height: 2rem;
+    width: 10rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.add__product button{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    color: hsl(26, 100%, 50%);
+    margin-left: 2px;
+    cursor: pointer;
 }
 .button__add {
+    display: flex;
+    gap: 2rem;
 }
-.add__cart {
+.button__add p {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+.add__cart button{
+    border: none;
+    background: none;
+    background-color: hsl(26, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .7rem;
+    width: 20rem;
+    height: 3rem;
+    font-size: 1rem;
+    gap: 1rem;
+}
+.add__cart img {
+    height: 1.3rem;
 }
 .attribution {
+    margin-top: 7rem;
 }
